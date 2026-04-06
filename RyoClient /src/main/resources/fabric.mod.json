@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "ryoclient",
+  "version": "1.0.0",
+  "name": "RyoClient",
+  "description": "Lite PvP Client optimized for low-end PCs.",
+  "authors": [
+    "Ryo"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/ryoclient/logo.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.ryo.client.RyoClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": ">=1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
